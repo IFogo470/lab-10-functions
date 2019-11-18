@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+  <body>
+   <script>
+function factorial(n) {
+//an iterative example of the factorial function
+if (n < 0) return; // termination
+if (n === 0) return 1; //last valure returned
+return n * factorial(n - 1); // how to increment
+}
+var userstring = prompt("Number Please")
+var usernum = parseInt(userstring);
+
+console.log(usernum + "! is " + factorial(usernum));
+   </script>
+</body>
+</html>
